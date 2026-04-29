@@ -1,6 +1,8 @@
 # LenovoExtensionDriver
 Lenovo Extension driver (v4.3.0.3)- WebCam Failure
+
 Detection script: Verifies that the Lenovo Extension driver v4.3.0.3 is installed and checks whether a system reboot is pending, reporting the device’s health status back to Intune.
+
 Remediation script: If the driver is missing or a reboot is required, it prompts the signed‑in user to restart the device to complete the update.
 
 “Webcam suddenly stopped working after update?”
